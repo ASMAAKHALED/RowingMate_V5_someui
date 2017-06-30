@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView
+            android:text="     Name       : "
+            android:gravity="center"
+            android:textColor="#00004d"
+            android:layout_gravity="center"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+        <TextView
+            android:text="-----"
+            android:textColor="#00004d"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Rname"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="   tilt angle   :"
+            android:layout_gravity="center"
+            android:textColor="#00004d"
+
+            android:gravity="center"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+        <TextView
+            android:text="00"
+            android:layout_gravity="center"
+            android:textColor="#00004d"
+
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Rangle"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="8dp"
+
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="    Speed      :"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#00004d"
+
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+        <TextView
+            android:text="00"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#00004d"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Rspeed"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="  distance   :"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#00004d"
+
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+        <TextView
+            android:text="00"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#00004d"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Rdist"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Stroke Rate :"
+            android:gravity="center"
+            android:textColor="#00004d"
+
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:layout_gravity="center"
+            android:textSize="18sp" />
+        <TextView
+            android:text="00"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#00004d"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/as1"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="      Time       :"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#00004d"
+
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+        <TextView
+            android:text="00"
+            android:layout_gravity="center"
+            android:textColor="#00004d"
+
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Rtime"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
